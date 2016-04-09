@@ -12,7 +12,7 @@ func withProgramName() {
 
 func withIndex() {
 	for index, arg := range os.Args[1:] {
-		fmt.Println(index, arg)
+		fmt.Printf("%v. %v\n", index, arg)
 	}
 }
 
